@@ -1,5 +1,5 @@
 #include "Mult.h"
 
-double Mult::Calculate() {
-    return ((this->getLeft()->Calculate()) * (this->getRight()->Calculate()));
+double Mult::calculate() {
+    return ((this->getLeft()->calculate()) * (this->getRight()->calculate()));
 }

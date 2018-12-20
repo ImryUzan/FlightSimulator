@@ -6,12 +6,13 @@ using namespace std;
 
 
 DataReaderServer::DataReaderServer(double portVal/*, double timeVal*/)/*: port(port), serverSocket(serverSoc)*/ {
-    port = portVal;
-    //time = timeVal;
+    this->port = portVal;
 }
 
 
-
+int DataReaderServer:: getClint(){
+    return this->clientSock;
+}
 
 void DataReaderServer::start(ParamsToUpdate* args) {
 // Create a socket point
@@ -19,7 +20,7 @@ void DataReaderServer::start(ParamsToUpdate* args) {
     if (serverSocket == -1) {
         throw "Error opening socket";
     }
-    args->defineSocket(serverSocket);
+    args->defineSocketServer(serverSocket);
     // Start listening to incoming connections
     //listen(serverSocket, MAX_CONNECTED_CLIENTS);
     // Define the client socket's structures
@@ -54,7 +55,7 @@ void DataReaderServer::accept(ParamsToUpdate* args){
     std::cout << "Waiting for connection..." << endl;
     sockaddr_in client_sock;
     int clilen;
-    this->clientSock = ::accept(args->getSocket(), (struct sockaddr*) &client_sock, (socklen_t *)&clilen);
+    this->clientSock = ::accept(args->getSocketServer(), (struct sockaddr*) &client_sock, (socklen_t *)&clilen);
     if ( this->clientSock < 0) {
         // TODO error
     }
@@ -62,6 +63,7 @@ void DataReaderServer::accept(ParamsToUpdate* args){
 
 }
 
+/*
 // Handle requests from a specific client
 void DataReaderServer::handleClient(int clientSocket) {
     int arg1, arg2;
@@ -114,7 +116,7 @@ int DataReaderServer::calc(int arg1, const char op, int arg2) const {
             cout << "Invalid operator" << endl;
             return 0;
     }
-}
+}*/
 /*
 void DataReaderServer::stop() {
     close(serverSocket);

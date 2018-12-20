@@ -18,10 +18,12 @@
 using namespace std;
 
 class openDataServerCommand : public Command{
+    pthread_t thread;
 public:
     openDataServerCommand(){
 
     }
+    list<string> splitInformation(string toParse);
     int doCommand(list<string>* list, int beginIndex,ParamsToUpdate* paramsToUpdate);
     string readFromSock(int nuberSocket);
     //void* openTread(void* arg);

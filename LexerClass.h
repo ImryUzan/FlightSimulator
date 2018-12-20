@@ -12,7 +12,7 @@ public:
 
     list<string> Lexer();
     list<string> splitToCommand (string line);
-    list<string> readFromFile();
+    list<list<string>> readFromFile();
 };
 
 #endif //SIMULATOR_CONVERTTOCOMMAND_H

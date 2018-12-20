@@ -5,6 +5,6 @@ using namespace std;
 
 class Expression{
 public:
-    virtual double Calculate()=0;
+    virtual double calculate()=0;
 };
 #endif //SIMULATOR_EXPRESSION_H

@@ -4,7 +4,7 @@
 
 #include "Num.h"
 #include <stdlib.h>
-double Num::Calculate() {
+double Num::calculate() {
     return this->numberVal;
 }
 
@@ -12,4 +12,8 @@ Num::Num(string numVal) {
 
     int z = stoi(numVal);
     this->numberVal = z;
+}
+
+Num::Num(double num) {
+    this->numberVal= num;
 }

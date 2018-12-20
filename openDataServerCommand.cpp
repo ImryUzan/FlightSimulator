@@ -5,24 +5,25 @@
 
 void* openTread(void* arg)
 {
-    ParamsToUpdate* args = (ParamsToUpdate*)arg;
-    DataReaderServer dataReaderServer(args->getPort());
+    auto args = static_cast<ParamsToUpdate*>(arg);
+    DataReaderServer dataReaderServer(args->getPortServer());
     dataReaderServer.start(args);
     while (true)    {
-        auto x = args->readFromSock(args->getSocket());
-        std::cout<<"ppp"<<std::endl;
+       // int f = args->getSocketServer();
+        string x = args->readFromSock(dataReaderServer.getClint());
+        list<string> parse = args->splitInformation(x);
+        args->updateMaps(parse);
         if (x == "exit") break;
     }
     return nullptr;
 }
 
 int openDataServerCommand::doCommand(list<string>* list, int beginIndex,ParamsToUpdate* paramsToUpdate) {
+    paramsToUpdate->intelizeMap();
     string portVal;
     string serverSocket;
-    ShutingYard yard;
-    pthread_t thread;
+    ShutingYard yard(paramsToUpdate->getVarsValues());
 
-    
   /*  int howMuchArgs = 0;
     if(beginIndex > list->size()){
         throw invalid_argument("no parameters for command");
@@ -39,9 +40,10 @@ int openDataServerCommand::doCommand(list<string>* list, int beginIndex,ParamsTo
         }
     howMuchArgs++;
     }*/
-    double port = yard.convertTOExpression(yard.evaluate(portVal))->Calculate();
-    double serverSoc = yard.convertTOExpression(yard.evaluate(serverSocket))->Calculate();
-    paramsToUpdate->setPort(port);
+  //  double port = yard.convertTOExpression(yard.evaluate(portVal))->calculate();
+   // double serverSoc = yard.convertTOExpression(yard.evaluate(serverSocket))->calculate();
+    //paramsToUpdate->setPortServer(port);
+
     pthread_create(&thread, nullptr , openTread, paramsToUpdate);
     return beginIndex;
 }

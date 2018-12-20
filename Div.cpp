@@ -3,6 +3,6 @@
 //
 #include "Div.h"
 
-double Div::Calculate() {
-    return ((this->getLeft()->Calculate()) / (this->getRight()->Calculate()));
+double Div::calculate() {
+    return ((this->getLeft()->calculate()) / (this->getRight()->calculate()));
 }

@@ -15,7 +15,7 @@ public:
        // left = first;
         //right = sec;
     }
-    double Calculate();
+    double calculate();
 };
 
 #endif //SIMULATOR_DIV_H

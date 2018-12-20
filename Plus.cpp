@@ -1,5 +1,5 @@
 #include "Plus.h"
 
-double Plus::Calculate() {
-    return ((this->getLeft()->Calculate()) + (this->getRight()->Calculate()));
+double Plus::calculate() {
+    return ((this->getLeft()->calculate()) + (this->getRight()->calculate()));
 }

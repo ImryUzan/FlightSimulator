@@ -12,7 +12,8 @@ class Num : public Expression{
     double numberVal;
 public:
     Num(string num);
+    Num(double num);
 
-    double Calculate();
+    double calculate();
 };
 #endif //SIMULATOR_NUM_H

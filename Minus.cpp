@@ -3,6 +3,6 @@
 //
 #include "Minus.h"
 
-double Minus::Calculate() {
-    return ((this->getLeft()->Calculate()) - (this->getRight()->Calculate()));
+double Minus::calculate() {
+    return ((this->getLeft()->calculate()) - (this->getRight()->calculate()));
 }

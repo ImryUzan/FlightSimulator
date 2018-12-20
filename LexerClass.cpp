@@ -1,16 +1,17 @@
 
 
 #include <fstream>
+#include <regex>
 #include "LexerClass.h"
 
 list<string> LexerClass::Lexer() {
-   //reading from file or console
-   string i ="openDataServer 5400 10 connect 127.0.0.1 5402";
+    //reading from file or console
+    string i ="openDataServer 5400 10 connect 127.0.0.1 5402";
     return splitToCommand(i);
 }
 
 list<string> LexerClass:: splitToCommand(string line){
-    size_t found;
+/*    size_t found;
     size_t begining;
     string myVal;
     list<string> resultArray;
@@ -21,25 +22,76 @@ list<string> LexerClass:: splitToCommand(string line){
         line = line.substr(begining, line.size());
         resultArray.push_back(line);
     }
-    return resultArray;
+    return resultArray;*/
+
+    //string line = "I 66 + 9 am \"looking\" for 3 + 5 fdgdfgfggdfgdgdfgdfdf GeeksForGeek \n";
+    list<string> listOfterLex;
+    string enterTolist = "";
+    regex number("[0-9,.]*");
+    regex var_name("[a-zA-Z_][a-zA-Z_0-9]*");
+    regex stringEx("\"[a-zA-Z_0-9]*\"");
+    regex whiteSpaces("[\t,\n, ]");
+    regex operators("[+,-,/,*]");
+    smatch m;
+
+    while(line.size()>0) {
+        if (line[0] == '"') {
+            regex_search(line, m, stringEx);
+            for (unsigned i = 0; i < m.size(); ++i) {
+                enterTolist += enterTolist + m.str(i);
+            }
+            listOfterLex.push_back(enterTolist);
+            line = line.substr(enterTolist.size(), line.size());
+            enterTolist = "";
+        } else if (line[0] == '\t' || line[0] == '\n' || line[0] == ' ') {
+            regex_search(line, m, whiteSpaces);
+            for (unsigned i = 0; i < m.size(); ++i) {
+                enterTolist += enterTolist + m.str(i);
+            }
+            line = line.substr(enterTolist.size(), line.size());
+            enterTolist = "";
+        } else if (line[0] > 48 && line[0] < 58) {
+            regex_search(line, m, number);
+            for (unsigned i = 0; i < m.size(); ++i) {
+                enterTolist += enterTolist + m.str(i);
+            }
+            listOfterLex.push_back(enterTolist);
+            line = line.substr(enterTolist.size(), line.size());
+            enterTolist = "";
+        } else if ((line[0] >= 65 && line[0] <= 90) || (line[0] >= 97 && line[0] <= 122)) {
+            regex_search(line, m, var_name);
+            for (unsigned i = 0; i < m.size(); ++i) {
+                enterTolist += enterTolist + m.str(i);
+            }
+            listOfterLex.push_back(enterTolist);
+            line = line.substr(enterTolist.size(), line.size());
+            enterTolist = "";
+        } else {
+            regex_search(line, m, operators);
+            for (unsigned i = 0; i < m.size(); ++i) {
+                enterTolist += enterTolist + m.str(i);
+            }
+            listOfterLex.push_back(enterTolist);
+            line = line.substr(enterTolist.size(), line.size());
+            enterTolist = "";
+        }
+
+    }
+    return listOfterLex;
+
 }
 
-list<string>  LexerClass:: readFromFile(){
+list<list<string>>  LexerClass:: readFromFile(){
     string command;
     string line;
     string buffer;
     size_t found;
     size_t begining = 0;
-    list<string> list;
+    list<list<string>> list;
     ifstream myfile ("Input.txt");
-    ifstream myotherfile("Input.txt");
-    if((myfile.good())&&(myotherfile.good())) {
+    if(myfile.good()) {
         while (getline(myfile, line)) {
-            found = line.find_first_of(" ");
-            command = line.substr(0, found);
-            begining = found + 1;
-            line = line.substr(begining, line.size());
-            list.push_back(line);
+            list.push_back(splitToCommand(line));
         }
     }
     return list;

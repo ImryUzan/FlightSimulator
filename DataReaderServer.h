@@ -19,8 +19,9 @@ public:
     DataReaderServer(double portVal);
     void start(ParamsToUpdate* args);
     void stop();
-    void handleClient(int clientSocket);
-    int calc(int arg1, const char op, int arg2) const;
+    int getClint();
+/*    void handleClient(int clientSocket);
+    int calc(int arg1, const char op, int arg2) const;*/
     void accept(ParamsToUpdate* args);
 };
 #endif //SIMULATOR_DATAREADERSERVER_H

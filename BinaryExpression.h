@@ -15,7 +15,7 @@ public:
         left = first;
         right = sec;
     }
-    virtual double Calculate()=0;
+    virtual double calculate()=0;
     Expression* getLeft();
     Expression* getRight();
 
