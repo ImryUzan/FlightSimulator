@@ -93,16 +93,46 @@
 		<Unit filename="/home/imry/CLionProjects/simulator/Command.h">
 			<Option target="simulator"/>
 		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/CommandExpression.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/CommandExpression.h">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/Connect.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/Connect.h">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/DataClient.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/DataClient.h">
+			<Option target="simulator"/>
+		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/DataReaderServer.cpp">
 			<Option target="simulator"/>
 		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/DataReaderServer.h">
 			<Option target="simulator"/>
 		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/DefineVarCommand.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/DefineVarCommand.h">
+			<Option target="simulator"/>
+		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/Div.cpp">
 			<Option target="simulator"/>
 		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/Div.h">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/EqualCommand.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/EqualCommand.h">
 			<Option target="simulator"/>
 		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/Expression.h">
@@ -144,6 +174,12 @@
 		<Unit filename="/home/imry/CLionProjects/simulator/ParamsToUpdate.h">
 			<Option target="simulator"/>
 		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/Parser.cpp">
+			<Option target="simulator"/>
+		</Unit>
+		<Unit filename="/home/imry/CLionProjects/simulator/Parser.h">
+			<Option target="simulator"/>
+		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/Plus.cpp">
 			<Option target="simulator"/>
 		</Unit>
@@ -154,12 +190,6 @@
 			<Option target="simulator"/>
 		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/ShutingYard.h">
-			<Option target="simulator"/>
-		</Unit>
-		<Unit filename="/home/imry/CLionProjects/simulator/Var.cpp">
-			<Option target="simulator"/>
-		</Unit>
-		<Unit filename="/home/imry/CLionProjects/simulator/Var.h">
 			<Option target="simulator"/>
 		</Unit>
 		<Unit filename="/home/imry/CLionProjects/simulator/main.cpp">

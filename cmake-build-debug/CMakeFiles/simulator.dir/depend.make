@@ -5,15 +5,41 @@ CMakeFiles/simulator.dir/BinaryExpression.cpp.o: ../BinaryExpression.cpp
 CMakeFiles/simulator.dir/BinaryExpression.cpp.o: ../BinaryExpression.h
 CMakeFiles/simulator.dir/BinaryExpression.cpp.o: ../Expression.h
 
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../CommandExpression.cpp
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../CommandExpression.h
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../Expression.h
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../ParamsToUpdate.h
+
+CMakeFiles/simulator.dir/Connect.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/Connect.cpp.o: ../Connect.cpp
+CMakeFiles/simulator.dir/Connect.cpp.o: ../Connect.h
+CMakeFiles/simulator.dir/Connect.cpp.o: ../DataClient.h
+CMakeFiles/simulator.dir/Connect.cpp.o: ../ParamsToUpdate.h
+
+CMakeFiles/simulator.dir/DataClient.cpp.o: ../DataClient.cpp
+CMakeFiles/simulator.dir/DataClient.cpp.o: ../DataClient.h
+CMakeFiles/simulator.dir/DataClient.cpp.o: ../ParamsToUpdate.h
+
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: ../Command.h
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: ../DataReaderServer.h
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: ../ParamsToUpdate.h
 
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.cpp
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.h
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: ../ParamsToUpdate.h
+
 CMakeFiles/simulator.dir/Div.cpp.o: ../BinaryExpression.h
 CMakeFiles/simulator.dir/Div.cpp.o: ../Div.cpp
 CMakeFiles/simulator.dir/Div.cpp.o: ../Div.h
 CMakeFiles/simulator.dir/Div.cpp.o: ../Expression.h
+
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: ../EqualCommand.cpp
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: ../EqualCommand.h
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: ../ParamsToUpdate.h
 
 CMakeFiles/simulator.dir/LexerClass.cpp.o: ../LexerClass.cpp
 CMakeFiles/simulator.dir/LexerClass.cpp.o: ../LexerClass.h
@@ -43,6 +69,13 @@ CMakeFiles/simulator.dir/Num.cpp.o: ../Num.h
 CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o: ../ParamsToUpdate.cpp
 CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o: ../ParamsToUpdate.h
 
+CMakeFiles/simulator.dir/Parser.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/Parser.cpp.o: ../CommandExpression.h
+CMakeFiles/simulator.dir/Parser.cpp.o: ../Expression.h
+CMakeFiles/simulator.dir/Parser.cpp.o: ../ParamsToUpdate.h
+CMakeFiles/simulator.dir/Parser.cpp.o: ../Parser.cpp
+CMakeFiles/simulator.dir/Parser.cpp.o: ../Parser.h
+
 CMakeFiles/simulator.dir/Plus.cpp.o: ../BinaryExpression.h
 CMakeFiles/simulator.dir/Plus.cpp.o: ../Expression.h
 CMakeFiles/simulator.dir/Plus.cpp.o: ../Plus.cpp
@@ -58,20 +91,22 @@ CMakeFiles/simulator.dir/ShutingYard.cpp.o: ../Plus.h
 CMakeFiles/simulator.dir/ShutingYard.cpp.o: ../ShutingYard.cpp
 CMakeFiles/simulator.dir/ShutingYard.cpp.o: ../ShutingYard.h
 
-CMakeFiles/simulator.dir/Var.cpp.o: ../Var.cpp
-CMakeFiles/simulator.dir/Var.cpp.o: ../Var.h
-
+CMakeFiles/simulator.dir/main.cpp.o: ../BinaryExpression.h
 CMakeFiles/simulator.dir/main.cpp.o: ../Command.h
+CMakeFiles/simulator.dir/main.cpp.o: ../DataClient.h
 CMakeFiles/simulator.dir/main.cpp.o: ../DataReaderServer.h
 CMakeFiles/simulator.dir/main.cpp.o: ../Expression.h
+CMakeFiles/simulator.dir/main.cpp.o: ../Num.h
 CMakeFiles/simulator.dir/main.cpp.o: ../ParamsToUpdate.h
 CMakeFiles/simulator.dir/main.cpp.o: ../ShutingYard.h
 CMakeFiles/simulator.dir/main.cpp.o: ../main.cpp
 CMakeFiles/simulator.dir/main.cpp.o: ../openDataServerCommand.h
 
+CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../BinaryExpression.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../Command.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../DataReaderServer.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../Expression.h
+CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../Num.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../ParamsToUpdate.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../ShutingYard.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o: ../openDataServerCommand.cpp

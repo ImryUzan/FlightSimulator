@@ -150,6 +150,87 @@ BinaryExpression.cpp.s:
 	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/BinaryExpression.cpp.s
 .PHONY : BinaryExpression.cpp.s
 
+CommandExpression.o: CommandExpression.cpp.o
+
+.PHONY : CommandExpression.o
+
+# target to build an object file
+CommandExpression.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/CommandExpression.cpp.o
+.PHONY : CommandExpression.cpp.o
+
+CommandExpression.i: CommandExpression.cpp.i
+
+.PHONY : CommandExpression.i
+
+# target to preprocess a source file
+CommandExpression.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/CommandExpression.cpp.i
+.PHONY : CommandExpression.cpp.i
+
+CommandExpression.s: CommandExpression.cpp.s
+
+.PHONY : CommandExpression.s
+
+# target to generate assembly for a file
+CommandExpression.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/CommandExpression.cpp.s
+.PHONY : CommandExpression.cpp.s
+
+Connect.o: Connect.cpp.o
+
+.PHONY : Connect.o
+
+# target to build an object file
+Connect.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Connect.cpp.o
+.PHONY : Connect.cpp.o
+
+Connect.i: Connect.cpp.i
+
+.PHONY : Connect.i
+
+# target to preprocess a source file
+Connect.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Connect.cpp.i
+.PHONY : Connect.cpp.i
+
+Connect.s: Connect.cpp.s
+
+.PHONY : Connect.s
+
+# target to generate assembly for a file
+Connect.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Connect.cpp.s
+.PHONY : Connect.cpp.s
+
+DataClient.o: DataClient.cpp.o
+
+.PHONY : DataClient.o
+
+# target to build an object file
+DataClient.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DataClient.cpp.o
+.PHONY : DataClient.cpp.o
+
+DataClient.i: DataClient.cpp.i
+
+.PHONY : DataClient.i
+
+# target to preprocess a source file
+DataClient.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DataClient.cpp.i
+.PHONY : DataClient.cpp.i
+
+DataClient.s: DataClient.cpp.s
+
+.PHONY : DataClient.s
+
+# target to generate assembly for a file
+DataClient.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DataClient.cpp.s
+.PHONY : DataClient.cpp.s
+
 DataReaderServer.o: DataReaderServer.cpp.o
 
 .PHONY : DataReaderServer.o
@@ -177,6 +258,33 @@ DataReaderServer.cpp.s:
 	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DataReaderServer.cpp.s
 .PHONY : DataReaderServer.cpp.s
 
+DefineVarCommand.o: DefineVarCommand.cpp.o
+
+.PHONY : DefineVarCommand.o
+
+# target to build an object file
+DefineVarCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DefineVarCommand.cpp.o
+.PHONY : DefineVarCommand.cpp.o
+
+DefineVarCommand.i: DefineVarCommand.cpp.i
+
+.PHONY : DefineVarCommand.i
+
+# target to preprocess a source file
+DefineVarCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DefineVarCommand.cpp.i
+.PHONY : DefineVarCommand.cpp.i
+
+DefineVarCommand.s: DefineVarCommand.cpp.s
+
+.PHONY : DefineVarCommand.s
+
+# target to generate assembly for a file
+DefineVarCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/DefineVarCommand.cpp.s
+.PHONY : DefineVarCommand.cpp.s
+
 Div.o: Div.cpp.o
 
 .PHONY : Div.o
@@ -203,6 +311,33 @@ Div.s: Div.cpp.s
 Div.cpp.s:
 	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Div.cpp.s
 .PHONY : Div.cpp.s
+
+EqualCommand.o: EqualCommand.cpp.o
+
+.PHONY : EqualCommand.o
+
+# target to build an object file
+EqualCommand.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/EqualCommand.cpp.o
+.PHONY : EqualCommand.cpp.o
+
+EqualCommand.i: EqualCommand.cpp.i
+
+.PHONY : EqualCommand.i
+
+# target to preprocess a source file
+EqualCommand.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/EqualCommand.cpp.i
+.PHONY : EqualCommand.cpp.i
+
+EqualCommand.s: EqualCommand.cpp.s
+
+.PHONY : EqualCommand.s
+
+# target to generate assembly for a file
+EqualCommand.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/EqualCommand.cpp.s
+.PHONY : EqualCommand.cpp.s
 
 LexerClass.o: LexerClass.cpp.o
 
@@ -366,6 +501,33 @@ ParamsToUpdate.cpp.s:
 	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/ParamsToUpdate.cpp.s
 .PHONY : ParamsToUpdate.cpp.s
 
+Parser.o: Parser.cpp.o
+
+.PHONY : Parser.o
+
+# target to build an object file
+Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Parser.cpp.o
+.PHONY : Parser.cpp.o
+
+Parser.i: Parser.cpp.i
+
+.PHONY : Parser.i
+
+# target to preprocess a source file
+Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Parser.cpp.i
+.PHONY : Parser.cpp.i
+
+Parser.s: Parser.cpp.s
+
+.PHONY : Parser.s
+
+# target to generate assembly for a file
+Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Parser.cpp.s
+.PHONY : Parser.cpp.s
+
 Plus.o: Plus.cpp.o
 
 .PHONY : Plus.o
@@ -419,33 +581,6 @@ ShutingYard.s: ShutingYard.cpp.s
 ShutingYard.cpp.s:
 	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/ShutingYard.cpp.s
 .PHONY : ShutingYard.cpp.s
-
-Var.o: Var.cpp.o
-
-.PHONY : Var.o
-
-# target to build an object file
-Var.cpp.o:
-	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Var.cpp.o
-.PHONY : Var.cpp.o
-
-Var.i: Var.cpp.i
-
-.PHONY : Var.i
-
-# target to preprocess a source file
-Var.cpp.i:
-	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Var.cpp.i
-.PHONY : Var.cpp.i
-
-Var.s: Var.cpp.s
-
-.PHONY : Var.s
-
-# target to generate assembly for a file
-Var.cpp.s:
-	$(MAKE) -f CMakeFiles/simulator.dir/build.make CMakeFiles/simulator.dir/Var.cpp.s
-.PHONY : Var.cpp.s
 
 main.o: main.cpp.o
 
@@ -513,12 +648,27 @@ help:
 	@echo "... BinaryExpression.o"
 	@echo "... BinaryExpression.i"
 	@echo "... BinaryExpression.s"
+	@echo "... CommandExpression.o"
+	@echo "... CommandExpression.i"
+	@echo "... CommandExpression.s"
+	@echo "... Connect.o"
+	@echo "... Connect.i"
+	@echo "... Connect.s"
+	@echo "... DataClient.o"
+	@echo "... DataClient.i"
+	@echo "... DataClient.s"
 	@echo "... DataReaderServer.o"
 	@echo "... DataReaderServer.i"
 	@echo "... DataReaderServer.s"
+	@echo "... DefineVarCommand.o"
+	@echo "... DefineVarCommand.i"
+	@echo "... DefineVarCommand.s"
 	@echo "... Div.o"
 	@echo "... Div.i"
 	@echo "... Div.s"
+	@echo "... EqualCommand.o"
+	@echo "... EqualCommand.i"
+	@echo "... EqualCommand.s"
 	@echo "... LexerClass.o"
 	@echo "... LexerClass.i"
 	@echo "... LexerClass.s"
@@ -537,15 +687,15 @@ help:
 	@echo "... ParamsToUpdate.o"
 	@echo "... ParamsToUpdate.i"
 	@echo "... ParamsToUpdate.s"
+	@echo "... Parser.o"
+	@echo "... Parser.i"
+	@echo "... Parser.s"
 	@echo "... Plus.o"
 	@echo "... Plus.i"
 	@echo "... Plus.s"
 	@echo "... ShutingYard.o"
 	@echo "... ShutingYard.i"
 	@echo "... ShutingYard.s"
-	@echo "... Var.o"
-	@echo "... Var.i"
-	@echo "... Var.s"
 	@echo "... main.o"
 	@echo "... main.i"
 	@echo "... main.s"

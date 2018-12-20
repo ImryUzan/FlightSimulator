@@ -5,16 +5,42 @@ CMakeFiles/simulator.dir/BinaryExpression.cpp.o
  /home/imry/CLionProjects/simulator/BinaryExpression.cpp
  /home/imry/CLionProjects/simulator/BinaryExpression.h
  /home/imry/CLionProjects/simulator/Expression.h
+CMakeFiles/simulator.dir/CommandExpression.cpp.o
+ /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/CommandExpression.cpp
+ /home/imry/CLionProjects/simulator/CommandExpression.h
+ /home/imry/CLionProjects/simulator/Expression.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
+CMakeFiles/simulator.dir/Connect.cpp.o
+ /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/Connect.cpp
+ /home/imry/CLionProjects/simulator/Connect.h
+ /home/imry/CLionProjects/simulator/DataClient.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
+CMakeFiles/simulator.dir/DataClient.cpp.o
+ /home/imry/CLionProjects/simulator/DataClient.cpp
+ /home/imry/CLionProjects/simulator/DataClient.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o
  /home/imry/CLionProjects/simulator/Command.h
  /home/imry/CLionProjects/simulator/DataReaderServer.cpp
  /home/imry/CLionProjects/simulator/DataReaderServer.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o
+ /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/DefineVarCommand.cpp
+ /home/imry/CLionProjects/simulator/DefineVarCommand.h
  /home/imry/CLionProjects/simulator/ParamsToUpdate.h
 CMakeFiles/simulator.dir/Div.cpp.o
  /home/imry/CLionProjects/simulator/BinaryExpression.h
  /home/imry/CLionProjects/simulator/Div.cpp
  /home/imry/CLionProjects/simulator/Div.h
  /home/imry/CLionProjects/simulator/Expression.h
+CMakeFiles/simulator.dir/EqualCommand.cpp.o
+ /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/EqualCommand.cpp
+ /home/imry/CLionProjects/simulator/EqualCommand.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
 CMakeFiles/simulator.dir/LexerClass.cpp.o
  /home/imry/CLionProjects/simulator/LexerClass.cpp
  /home/imry/CLionProjects/simulator/LexerClass.h
@@ -43,6 +69,13 @@ CMakeFiles/simulator.dir/Num.cpp.o
 CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o
  /home/imry/CLionProjects/simulator/ParamsToUpdate.cpp
  /home/imry/CLionProjects/simulator/ParamsToUpdate.h
+CMakeFiles/simulator.dir/Parser.cpp.o
+ /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/CommandExpression.h
+ /home/imry/CLionProjects/simulator/Expression.h
+ /home/imry/CLionProjects/simulator/ParamsToUpdate.h
+ /home/imry/CLionProjects/simulator/Parser.cpp
+ /home/imry/CLionProjects/simulator/Parser.h
 CMakeFiles/simulator.dir/Plus.cpp.o
  /home/imry/CLionProjects/simulator/BinaryExpression.h
  /home/imry/CLionProjects/simulator/Expression.h
@@ -58,21 +91,23 @@ CMakeFiles/simulator.dir/ShutingYard.cpp.o
  /home/imry/CLionProjects/simulator/Plus.h
  /home/imry/CLionProjects/simulator/ShutingYard.cpp
  /home/imry/CLionProjects/simulator/ShutingYard.h
-CMakeFiles/simulator.dir/Var.cpp.o
- /home/imry/CLionProjects/simulator/Var.cpp
- /home/imry/CLionProjects/simulator/Var.h
 CMakeFiles/simulator.dir/main.cpp.o
+ /home/imry/CLionProjects/simulator/BinaryExpression.h
  /home/imry/CLionProjects/simulator/Command.h
+ /home/imry/CLionProjects/simulator/DataClient.h
  /home/imry/CLionProjects/simulator/DataReaderServer.h
  /home/imry/CLionProjects/simulator/Expression.h
+ /home/imry/CLionProjects/simulator/Num.h
  /home/imry/CLionProjects/simulator/ParamsToUpdate.h
  /home/imry/CLionProjects/simulator/ShutingYard.h
  /home/imry/CLionProjects/simulator/main.cpp
  /home/imry/CLionProjects/simulator/openDataServerCommand.h
 CMakeFiles/simulator.dir/openDataServerCommand.cpp.o
+ /home/imry/CLionProjects/simulator/BinaryExpression.h
  /home/imry/CLionProjects/simulator/Command.h
  /home/imry/CLionProjects/simulator/DataReaderServer.h
  /home/imry/CLionProjects/simulator/Expression.h
+ /home/imry/CLionProjects/simulator/Num.h
  /home/imry/CLionProjects/simulator/ParamsToUpdate.h
  /home/imry/CLionProjects/simulator/ShutingYard.h
  /home/imry/CLionProjects/simulator/openDataServerCommand.cpp

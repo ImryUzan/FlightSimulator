@@ -200,18 +200,18 @@ CMakeFiles/simulator.dir/Negative.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/Negative.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/Negative.cpp -o CMakeFiles/simulator.dir/Negative.cpp.s
 
-CMakeFiles/simulator.dir/Var.cpp.o: CMakeFiles/simulator.dir/flags.make
-CMakeFiles/simulator.dir/Var.cpp.o: ../Var.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/simulator.dir/Var.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/Var.cpp.o -c /home/imry/CLionProjects/simulator/Var.cpp
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.o: ../DefineVarCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/simulator.dir/DefineVarCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/DefineVarCommand.cpp.o -c /home/imry/CLionProjects/simulator/DefineVarCommand.cpp
 
-CMakeFiles/simulator.dir/Var.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/Var.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/Var.cpp > CMakeFiles/simulator.dir/Var.cpp.i
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/DefineVarCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/DefineVarCommand.cpp > CMakeFiles/simulator.dir/DefineVarCommand.cpp.i
 
-CMakeFiles/simulator.dir/Var.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/Var.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/Var.cpp -o CMakeFiles/simulator.dir/Var.cpp.s
+CMakeFiles/simulator.dir/DefineVarCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/DefineVarCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/DefineVarCommand.cpp -o CMakeFiles/simulator.dir/DefineVarCommand.cpp.s
 
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: CMakeFiles/simulator.dir/flags.make
 CMakeFiles/simulator.dir/DataReaderServer.cpp.o: ../DataReaderServer.cpp
@@ -239,6 +239,71 @@ CMakeFiles/simulator.dir/ParamsToUpdate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/ParamsToUpdate.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/ParamsToUpdate.cpp -o CMakeFiles/simulator.dir/ParamsToUpdate.cpp.s
 
+CMakeFiles/simulator.dir/Parser.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/Parser.cpp.o: ../Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object CMakeFiles/simulator.dir/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/Parser.cpp.o -c /home/imry/CLionProjects/simulator/Parser.cpp
+
+CMakeFiles/simulator.dir/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/Parser.cpp > CMakeFiles/simulator.dir/Parser.cpp.i
+
+CMakeFiles/simulator.dir/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/Parser.cpp -o CMakeFiles/simulator.dir/Parser.cpp.s
+
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/CommandExpression.cpp.o: ../CommandExpression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Building CXX object CMakeFiles/simulator.dir/CommandExpression.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/CommandExpression.cpp.o -c /home/imry/CLionProjects/simulator/CommandExpression.cpp
+
+CMakeFiles/simulator.dir/CommandExpression.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/CommandExpression.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/CommandExpression.cpp > CMakeFiles/simulator.dir/CommandExpression.cpp.i
+
+CMakeFiles/simulator.dir/CommandExpression.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/CommandExpression.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/CommandExpression.cpp -o CMakeFiles/simulator.dir/CommandExpression.cpp.s
+
+CMakeFiles/simulator.dir/Connect.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/Connect.cpp.o: ../Connect.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Building CXX object CMakeFiles/simulator.dir/Connect.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/Connect.cpp.o -c /home/imry/CLionProjects/simulator/Connect.cpp
+
+CMakeFiles/simulator.dir/Connect.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/Connect.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/Connect.cpp > CMakeFiles/simulator.dir/Connect.cpp.i
+
+CMakeFiles/simulator.dir/Connect.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/Connect.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/Connect.cpp -o CMakeFiles/simulator.dir/Connect.cpp.s
+
+CMakeFiles/simulator.dir/DataClient.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/DataClient.cpp.o: ../DataClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object CMakeFiles/simulator.dir/DataClient.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/DataClient.cpp.o -c /home/imry/CLionProjects/simulator/DataClient.cpp
+
+CMakeFiles/simulator.dir/DataClient.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/DataClient.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/DataClient.cpp > CMakeFiles/simulator.dir/DataClient.cpp.i
+
+CMakeFiles/simulator.dir/DataClient.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/DataClient.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/DataClient.cpp -o CMakeFiles/simulator.dir/DataClient.cpp.s
+
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: CMakeFiles/simulator.dir/flags.make
+CMakeFiles/simulator.dir/EqualCommand.cpp.o: ../EqualCommand.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object CMakeFiles/simulator.dir/EqualCommand.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/simulator.dir/EqualCommand.cpp.o -c /home/imry/CLionProjects/simulator/EqualCommand.cpp
+
+CMakeFiles/simulator.dir/EqualCommand.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/simulator.dir/EqualCommand.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/imry/CLionProjects/simulator/EqualCommand.cpp > CMakeFiles/simulator.dir/EqualCommand.cpp.i
+
+CMakeFiles/simulator.dir/EqualCommand.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/simulator.dir/EqualCommand.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/imry/CLionProjects/simulator/EqualCommand.cpp -o CMakeFiles/simulator.dir/EqualCommand.cpp.s
+
 # Object files for target simulator
 simulator_OBJECTS = \
 "CMakeFiles/simulator.dir/main.cpp.o" \
@@ -252,9 +317,14 @@ simulator_OBJECTS = \
 "CMakeFiles/simulator.dir/Num.cpp.o" \
 "CMakeFiles/simulator.dir/ShutingYard.cpp.o" \
 "CMakeFiles/simulator.dir/Negative.cpp.o" \
-"CMakeFiles/simulator.dir/Var.cpp.o" \
+"CMakeFiles/simulator.dir/DefineVarCommand.cpp.o" \
 "CMakeFiles/simulator.dir/DataReaderServer.cpp.o" \
-"CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o"
+"CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o" \
+"CMakeFiles/simulator.dir/Parser.cpp.o" \
+"CMakeFiles/simulator.dir/CommandExpression.cpp.o" \
+"CMakeFiles/simulator.dir/Connect.cpp.o" \
+"CMakeFiles/simulator.dir/DataClient.cpp.o" \
+"CMakeFiles/simulator.dir/EqualCommand.cpp.o"
 
 # External object files for target simulator
 simulator_EXTERNAL_OBJECTS =
@@ -270,12 +340,17 @@ simulator: CMakeFiles/simulator.dir/Mult.cpp.o
 simulator: CMakeFiles/simulator.dir/Num.cpp.o
 simulator: CMakeFiles/simulator.dir/ShutingYard.cpp.o
 simulator: CMakeFiles/simulator.dir/Negative.cpp.o
-simulator: CMakeFiles/simulator.dir/Var.cpp.o
+simulator: CMakeFiles/simulator.dir/DefineVarCommand.cpp.o
 simulator: CMakeFiles/simulator.dir/DataReaderServer.cpp.o
 simulator: CMakeFiles/simulator.dir/ParamsToUpdate.cpp.o
+simulator: CMakeFiles/simulator.dir/Parser.cpp.o
+simulator: CMakeFiles/simulator.dir/CommandExpression.cpp.o
+simulator: CMakeFiles/simulator.dir/Connect.cpp.o
+simulator: CMakeFiles/simulator.dir/DataClient.cpp.o
+simulator: CMakeFiles/simulator.dir/EqualCommand.cpp.o
 simulator: CMakeFiles/simulator.dir/build.make
 simulator: CMakeFiles/simulator.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX executable simulator"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/imry/CLionProjects/simulator/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Linking CXX executable simulator"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/simulator.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
